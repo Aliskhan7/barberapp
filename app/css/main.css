@@ -1,0 +1,26 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter", sans-serif; }
+
+main .main-bg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px; }
+  main .main-bg img {
+    max-width: 50%;
+    height: auto; }
+
+main .main-title {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center; }
+  main .main-title p {
+    margin: 15px 0; }

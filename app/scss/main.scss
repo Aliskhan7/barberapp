@@ -1,0 +1,41 @@
+$bg: #fff;
+$blue-color: #5941A9;
+$blue-light: #6D72C3;
+$grey: #514F59;
+
+$font: 'Inter', sans-serif;
+//font-family: 'Hair-2', arial;
+
+
+*{
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+
+
+main{
+    .main-bg{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        img{
+            max-width: 50%;
+            height: auto;
+        }
+    }
+    .main-title{
+        font-family: $font;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+        p{
+            margin: 15px 0;
+        }
+    }
+}
+.form{
+    &__application{
+        
+    }
+}
