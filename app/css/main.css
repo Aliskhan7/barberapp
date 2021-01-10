@@ -1,26 +1,58 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Inter", sans-serif; }
+  font-family: "VantaThin", sans-serif; }
 
-main .main-bg {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 15px; }
-  main .main-bg img {
-    max-width: 50%;
-    height: auto; }
-
-main .main-title {
-  font-family: "Inter", sans-serif;
-  font-size: 50px;
-  font-weight: 800;
-  text-align: center; }
-  main .main-title p {
-    margin: 15px 0; }
+@media (min-width: 320px) and (max-width: 450px) {
+  main .main-bg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 15px; }
+    main .main-bg img {
+      max-width: 50%;
+      height: auto;
+      background: transparent; }
+  main .main-title {
+    font-family: "VantaThin", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center; }
+    main .main-title p {
+      margin: 15px 0;
+      font-weight: 800; }
+  .form__application {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 30px; }
+    .form__application input {
+      width: 100%;
+      height: 60px;
+      margin-bottom: 30px;
+      outline: none;
+      border-radius: 10px;
+      font-size: 1.3em; }
+    .form__application label {
+      font-size: 1.5em;
+      font-weight: 800; }
+    .form__application button {
+      background-color: #5941A9;
+      padding: 15px 0;
+      border: none;
+      font-size: 1.3em;
+      color: #fff;
+      border-radius: 10px;
+      width: 250px;
+      margin: 20px auto; } }
