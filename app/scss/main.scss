@@ -2,6 +2,7 @@ $bg: #fff;
 $blue-color: #5941A9;
 $blue-light: #6D72C3;
 $grey: #514F59;
+$white: #fff;
 
 $font: 'Vanta Thin', sans-serif;
 //font-family: 'Hair-2', arial;
@@ -12,7 +13,7 @@ $font: 'Vanta Thin', sans-serif;
     font-family: $font;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+
     main{
         .main-bg{
             display: flex;
@@ -58,11 +59,36 @@ $font: 'Vanta Thin', sans-serif;
                 padding: 15px 0;
                 border: none;
                 font-size: 1.3em;
-                color: #fff;
+                color: $white;
                 border-radius: 10px;
                 width: 250px;
                 margin: 20px auto;
             }
+        }
+    }
+//Страница Клиенты
+.client{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: $blue-color;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        font-size: 1.1em;
+        padding: 15px;
+        color: $white;
+        &-name{
+            margin: 0;
+        }
+        &-call{
+            color: $white;
         }
     }
 }
